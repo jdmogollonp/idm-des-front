@@ -54,6 +54,16 @@ const routes = [
         routes: [
             {
                 exact: true,
+                path: '/auth/logout',
+                component: lazy(() => import('./views/auth/logout/Logout'))
+            },
+            {
+                exact: true,
+                path: '/users/delete',
+                component: lazy(() => import('./views/users/Delete'))
+            },
+            {
+                exact: true,
                 path: '/app/dashboard',
                 component: lazy(() => import('./views/dashboard/home/Home'))
             },

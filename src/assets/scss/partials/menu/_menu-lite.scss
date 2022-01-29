@@ -166,12 +166,18 @@
 
     .input-group .input-group-text,
     a,
-    .btn,
     &.dropdown-toggle {
         color: $header-light-text-color;
 
         &:hover {
             color: $primary-color;
+        }
+    }
+    
+    .btn {
+        color: #fff;
+        &:hover {
+            color: #fff;
         }
     }
 
@@ -2806,7 +2812,6 @@ body {
 
             .input-group .input-group-text,
             a,
-            .btn,
             .dropdown-toggle {
                 color: rgba(256, 256, 256, 0.8);
 
@@ -2821,6 +2826,14 @@ body {
                     }
                 }
             }
+
+            .btn {
+                color: #fff;
+                &:hover {
+                    color: #fff;
+                }
+            }
+
 
             .main-search {
                 .search-close > .input-group-text {
