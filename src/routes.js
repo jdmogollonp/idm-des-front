@@ -50,7 +50,7 @@ const routes = [
     {
         path: '*',
         layout: AdminLayout,
-        guard: AuthGuard,
+        guard: GuestGuard,
         routes: [
             {
                 exact: true,

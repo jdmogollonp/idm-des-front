@@ -10,7 +10,7 @@ import Request from '../../services/requests';
 import { updateFileName } from '../../store/projectReducer';
 import {} from 'react-redux';
 
-require('dotenv').config();
+//require('dotenv').config();
 
 const S3_BUCKET = 'idmprojects';
 const ACCESS_KEY = '';
